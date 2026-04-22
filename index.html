@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zahor — Politique de confidentialité / Privacy Policy</title>
+    <meta
+      name="description"
+      content="Politique de confidentialité et conditions d'utilisation de l'application Zahor."
+    />
+    <style>
+      :root {
+        --bg: #faf7f2;
+        --text: #1f1b16;
+        --muted: #6b645b;
+        --accent: #8b7355;
+        --border: #e8e2d7;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+          Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        font-size: 16px;
+      }
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 24px 80px;
+      }
+      header {
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 40px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 22px;
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+      }
+      h3 {
+        font-size: 17px;
+        margin-top: 24px;
+        color: var(--accent);
+      }
+      p,
+      ul {
+        margin: 12px 0;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li {
+        margin: 6px 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .lang-switch {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+      .lang-switch a {
+        padding: 6px 12px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        text-decoration: none;
+        color: var(--text);
+        font-size: 14px;
+      }
+      .lang-switch a.active {
+        background: var(--accent);
+        color: white;
+        border-color: var(--accent);
+      }
+      hr.section-break {
+        border: 0;
+        border-top: 2px dashed var(--border);
+        margin: 80px 0;
+      }
+      code {
+        background: #efe9dc;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="lang-switch">
+          <a href="#fr" class="active">Français</a>
+          <a href="#en">English</a>
+        </div>
+        <h1>Zahor — Politique de confidentialité</h1>
+        <p class="muted">Dernière mise à jour : 22 avril 2026</p>
+      </header>
+
+      <!-- =========================== FR =========================== -->
+      <section id="fr">
+        <h2>1. Qui sommes-nous ?</h2>
+        <p>
+          <strong>Zahor</strong> (זכור — « souviens-toi ») est une application
+          mobile destinée à aider les familles juives à commémorer leurs proches
+          disparus : calcul automatique des dates de yahrzeit (anniversaire
+          hébraïque du décès), rappels, cercles familiaux partagés, prières et
+          recueil de souvenirs.
+        </p>
+        <p>
+          Zahor est édité et exploité par <strong>Lirone Samoun</strong>,
+          personne physique résidant en France, responsable du traitement de
+          vos données personnelles au sens du Règlement général sur la
+          protection des données (RGPD).
+        </p>
+        <p>
+          <strong>Contact :</strong>
+          <a href="mailto:lirone.samoun@gmail.com">lirone.samoun@gmail.com</a>
+        </p>
+
+        <h2>2. Données que nous collectons</h2>
+
+        <h3>2.1 Données que vous fournissez</h3>
+        <ul>
+          <li>
+            <strong>Compte :</strong> adresse e-mail et, facultativement, un nom
+            d'affichage.
+          </li>
+          <li>
+            <strong>Mémoriaux :</strong> noms de vos proches disparus, dates
+            civile et/ou hébraïque de décès, lien de parenté, photo éventuelle.
+          </li>
+          <li>
+            <strong>Souvenirs :</strong> textes et photos que vous choisissez
+            d'ajouter à un mémorial.
+          </li>
+          <li>
+            <strong>Cercles familiaux :</strong> appartenance à un ou plusieurs
+            cercles, rôle (propriétaire ou membre), relations personnelles que
+            vous définissez.
+          </li>
+          <li>
+            <strong>Préférences :</strong> tradition (Ashkenaze ou Séfarade),
+            langue, paramètres de notification.
+          </li>
+          <li>
+            <strong>Retours utilisateur :</strong> messages envoyés via le
+            formulaire de feedback intégré.
+          </li>
+        </ul>
+
+        <h3>2.2 Données collectées automatiquement</h3>
+        <ul>
+          <li>
+            <strong>Jeton de notifications (push token) :</strong> identifiant
+            anonyme fourni par Firebase Cloud Messaging, utilisé uniquement pour
+            envoyer les rappels de yahrzeit.
+          </li>
+          <li>
+            <strong>Localisation (facultative, ponctuelle) :</strong> lorsque
+            l'application calcule l'heure du coucher du soleil local (utile
+            pour les dates hébraïques, qui changent à la tombée de la nuit),
+            votre position approximative peut être lue. Elle n'est
+            <strong>jamais stockée sur nos serveurs</strong> ni transmise à des
+            tiers.
+          </li>
+          <li>
+            <strong>Rapports de crash :</strong> en cas d'erreur, Sentry
+            collecte la trace d'exécution technique, la version de l'OS et du
+            modèle de l'appareil. Aucune donnée de mémorial ou de souvenir
+            n'est incluse.
+          </li>
+          <li>
+            <strong>Analytique d'usage :</strong> PostHog (serveurs européens)
+            enregistre quels écrans sont consultés et quelles fonctionnalités
+            sont utilisées, de manière agrégée.
+            <strong
+              >Le contenu de vos mémoriaux et souvenirs n'est jamais transmis
+              à l'analytique.</strong
+            >
+          </li>
+        </ul>
+
+        <h2>3. Pourquoi nous collectons ces données (base légale)</h2>
+        <ul>
+          <li>
+            <strong>Exécution du contrat :</strong> gestion de votre compte,
+            synchronisation de vos mémoriaux et souvenirs, envoi des rappels que
+            vous demandez.
+          </li>
+          <li>
+            <strong>Intérêt légitime :</strong> détection et correction de bugs
+            (Sentry), amélioration de l'application (PostHog anonymisé).
+          </li>
+          <li>
+            <strong>Consentement :</strong> notifications push, accès aux
+            photos, accès à la localisation — chacune de ces autorisations vous
+            est demandée explicitement et peut être révoquée à tout moment dans
+            les paramètres de votre appareil.
+          </li>
+        </ul>
+
+        <h2>4. Avec qui nous partageons vos données</h2>
+        <p>
+          Zahor ne vend jamais vos données. Nous faisons appel à des
+          sous-traitants techniques uniquement pour fournir le service :
+        </p>
+        <ul>
+          <li>
+            <strong>Supabase</strong> (serveurs hébergés en Union européenne)
+            — hébergement de la base de données, authentification, stockage des
+            photos. Données chiffrées en transit (HTTPS) et au repos.
+          </li>
+          <li>
+            <strong>Firebase Cloud Messaging (Google)</strong> — envoi
+            technique des notifications push.
+          </li>
+          <li>
+            <strong>Sentry</strong> — collecte des rapports de crash.
+          </li>
+          <li>
+            <strong>PostHog</strong> (hébergé en Union européenne) — analytique
+            d'usage agrégée.
+          </li>
+          <li>
+            <strong>Membres de vos cercles familiaux :</strong> les mémoriaux
+            et souvenirs que vous <em>choisissez de partager</em> avec un
+            cercle sont visibles par les autres membres de ce cercle. Vous
+            gardez le contrôle du partage mémorial par mémorial.
+          </li>
+        </ul>
+        <p>
+          <strong>Transferts hors Union européenne :</strong> Sentry et
+          Firebase Cloud Messaging (Google) peuvent traiter des données
+          techniques limitées (rapports de crash, jetons de notification) sur
+          des serveurs situés aux États-Unis. Ces transferts sont encadrés par
+          les clauses contractuelles types de la Commission européenne et par
+          le <em>EU-U.S. Data Privacy Framework</em>.
+        </p>
+
+        <h2>5. Durée de conservation</h2>
+        <ul>
+          <li>
+            <strong>Compte et contenus (mémoriaux, souvenirs, cercles) :</strong>
+            conservés tant que votre compte est actif. Supprimés sous 30 jours
+            après suppression du compte.
+          </li>
+          <li>
+            <strong>Rapports de crash (Sentry) :</strong> conservés 90 jours,
+            puis supprimés automatiquement.
+          </li>
+          <li>
+            <strong>Analytique (PostHog) :</strong> conservée sous forme agrégée
+            et anonymisée.
+          </li>
+        </ul>
+
+        <h2>6. Vos droits (RGPD)</h2>
+        <p>Vous disposez à tout moment des droits suivants :</p>
+        <ul>
+          <li><strong>Accès</strong> à vos données personnelles ;</li>
+          <li><strong>Rectification</strong> en cas d'erreur ;</li>
+          <li>
+            <strong>Suppression</strong> — directement depuis l'application
+            (<em>Paramètres → Supprimer mon compte</em>), ce qui efface toutes
+            vos données sous 30 jours ;
+          </li>
+          <li>
+            <strong>Portabilité</strong> — demande d'export de vos données dans
+            un format lisible ;
+          </li>
+          <li>
+            <strong>Opposition</strong> au traitement à des fins d'analyse
+            (PostHog) ;
+          </li>
+          <li>
+            <strong>Réclamation</strong> auprès de la CNIL
+            (<a href="https://www.cnil.fr/" target="_blank" rel="noopener"
+              >www.cnil.fr</a
+            >).
+          </li>
+        </ul>
+        <p>
+          Pour exercer ces droits, contactez-nous à
+          <a href="mailto:lirone.samoun@gmail.com"
+            >lirone.samoun@gmail.com</a
+          >.
+        </p>
+
+        <h2>7. Sécurité</h2>
+        <p>
+          Vos données sont chiffrées en transit (TLS/HTTPS) et au repos côté
+          Supabase. L'accès à la base est régi par des règles de sécurité
+          (<em>Row Level Security</em>) qui isolent chaque compte. Les photos
+          de mémoriaux sont stockées dans un bucket privé, accessibles
+          uniquement via URLs signées.
+        </p>
+
+        <h2>8. Mineurs</h2>
+        <p>
+          Zahor ne s'adresse pas aux enfants de moins de 13 ans. Nous ne
+          collectons pas sciemment de données concernant des mineurs.
+        </p>
+
+        <h2>9. Modifications</h2>
+        <p>
+          Nous pouvons mettre à jour cette politique. Toute modification
+          substantielle vous sera notifiée dans l'application. La date de
+          dernière mise à jour figure en haut de ce document.
+        </p>
+
+        <h2>10. Contact</h2>
+        <p>
+          Pour toute question relative à cette politique :<br />
+          <a href="mailto:lirone.samoun@gmail.com"
+            >lirone.samoun@gmail.com</a
+          >
+        </p>
+      </section>
+
+      <hr class="section-break" />
+
+      <!-- =========================== EN =========================== -->
+      <section id="en" lang="en">
+        <header style="border: 0; margin: 0 0 24px; padding: 0">
+          <h1>Zahor — Privacy Policy</h1>
+          <p class="muted">Last updated: April 22, 2026</p>
+        </header>
+
+        <h2>1. Who we are</h2>
+        <p>
+          <strong>Zahor</strong> (זכור — "remember") is a mobile application
+          that helps Jewish families commemorate their deceased loved ones:
+          automatic calculation of yahrzeit dates (Hebrew anniversary of
+          death), reminders, shared family circles, prayers, and a collection
+          of memories.
+        </p>
+        <p>
+          Zahor is published and operated by <strong>Lirone Samoun</strong>, a
+          natural person residing in France, acting as data controller within
+          the meaning of the General Data Protection Regulation (GDPR).
+        </p>
+        <p>
+          <strong>Contact:</strong>
+          <a href="mailto:lirone.samoun@gmail.com"
+            >lirone.samoun@gmail.com</a
+          >
+        </p>
+
+        <h2>2. Data we collect</h2>
+
+        <h3>2.1 Data you provide</h3>
+        <ul>
+          <li>
+            <strong>Account:</strong> email address and, optionally, a display
+            name.
+          </li>
+          <li>
+            <strong>Memorials:</strong> names of your deceased loved ones,
+            civil and/or Hebrew dates of death, family relationship, optional
+            photo.
+          </li>
+          <li>
+            <strong>Memories:</strong> text and photos you choose to add to a
+            memorial.
+          </li>
+          <li>
+            <strong>Family circles:</strong> membership in one or more circles,
+            role (owner or member), personal relationships you define.
+          </li>
+          <li>
+            <strong>Preferences:</strong> tradition (Ashkenazi or Sephardi),
+            language, notification settings.
+          </li>
+          <li>
+            <strong>User feedback:</strong> messages sent via the in-app
+            feedback form.
+          </li>
+        </ul>
+
+        <h3>2.2 Data collected automatically</h3>
+        <ul>
+          <li>
+            <strong>Push notification token:</strong> anonymous identifier
+            provided by Firebase Cloud Messaging, used solely to deliver
+            yahrzeit reminders.
+          </li>
+          <li>
+            <strong>Location (optional, point-in-time):</strong> when the app
+            calculates local sunset time (relevant for Hebrew dates, which
+            change at nightfall), your approximate location may be read. It is
+            <strong>never stored on our servers</strong> and never shared with
+            third parties.
+          </li>
+          <li>
+            <strong>Crash reports:</strong> in case of error, Sentry collects
+            the technical stack trace, OS version, and device model. No
+            memorial or memory content is included.
+          </li>
+          <li>
+            <strong>Usage analytics:</strong> PostHog (EU servers) records
+            which screens are viewed and which features are used, in aggregate.
+            <strong
+              >The content of your memorials and memories is never sent to
+              analytics.</strong
+            >
+          </li>
+        </ul>
+
+        <h2>3. Why we collect this data (legal basis)</h2>
+        <ul>
+          <li>
+            <strong>Contract performance:</strong> managing your account,
+            syncing your memorials and memories, delivering the reminders you
+            request.
+          </li>
+          <li>
+            <strong>Legitimate interest:</strong> detecting and fixing bugs
+            (Sentry), improving the application (anonymized PostHog).
+          </li>
+          <li>
+            <strong>Consent:</strong> push notifications, photo access, and
+            location — each of these permissions is explicitly requested and
+            can be revoked at any time in your device settings.
+          </li>
+        </ul>
+
+        <h2>4. Who we share your data with</h2>
+        <p>
+          Zahor never sells your data. We rely on technical subprocessors
+          solely to deliver the service:
+        </p>
+        <ul>
+          <li>
+            <strong>Supabase</strong> (servers hosted in the European Union)
+            — database hosting, authentication, photo storage. Data encrypted
+            in transit (HTTPS) and at rest.
+          </li>
+          <li>
+            <strong>Firebase Cloud Messaging (Google)</strong> — technical
+            delivery of push notifications.
+          </li>
+          <li>
+            <strong>Sentry</strong> — crash report collection.
+          </li>
+          <li>
+            <strong>PostHog</strong> (hosted in the European Union) — aggregate
+            usage analytics.
+          </li>
+          <li>
+            <strong>Members of your family circles:</strong> memorials and
+            memories you
+            <em>choose to share</em> with a circle are visible to other members
+            of that circle. You retain control over sharing on a per-memorial
+            basis.
+          </li>
+        </ul>
+        <p>
+          <strong>Transfers outside the European Union:</strong> Sentry and
+          Firebase Cloud Messaging (Google) may process limited technical data
+          (crash reports, push notification tokens) on servers located in the
+          United States. These transfers are governed by the European
+          Commission's Standard Contractual Clauses and the
+          <em>EU-U.S. Data Privacy Framework</em>.
+        </p>
+
+        <h2>5. Retention period</h2>
+        <ul>
+          <li>
+            <strong>Account and content (memorials, memories, circles):</strong>
+            kept as long as your account is active. Deleted within 30 days
+            after account deletion.
+          </li>
+          <li>
+            <strong>Crash reports (Sentry):</strong> kept for 90 days, then
+            automatically deleted.
+          </li>
+          <li>
+            <strong>Analytics (PostHog):</strong> kept in aggregate and
+            anonymized form.
+          </li>
+        </ul>
+
+        <h2>6. Your rights (GDPR)</h2>
+        <p>You have the following rights at any time:</p>
+        <ul>
+          <li><strong>Access</strong> to your personal data;</li>
+          <li><strong>Rectification</strong> of incorrect data;</li>
+          <li>
+            <strong>Deletion</strong> — directly from the app
+            (<em>Settings → Delete my account</em>), which erases all your
+            data within 30 days;
+          </li>
+          <li>
+            <strong>Portability</strong> — request an export of your data in a
+            readable format;
+          </li>
+          <li>
+            <strong>Objection</strong> to analytics processing (PostHog);
+          </li>
+          <li>
+            <strong>Complaint</strong> to the French Data Protection Authority
+            (CNIL,
+            <a href="https://www.cnil.fr/" target="_blank" rel="noopener"
+              >www.cnil.fr</a
+            >) or your local EU authority.
+          </li>
+        </ul>
+        <p>
+          To exercise these rights, contact us at
+          <a href="mailto:lirone.samoun@gmail.com"
+            >lirone.samoun@gmail.com</a
+          >.
+        </p>
+
+        <h2>7. Security</h2>
+        <p>
+          Your data is encrypted in transit (TLS/HTTPS) and at rest on the
+          Supabase side. Database access is governed by security rules
+          (<em>Row Level Security</em>) that isolate each account. Memorial
+          photos are stored in a private bucket, accessible only via signed
+          URLs.
+        </p>
+
+        <h2>8. Minors</h2>
+        <p>
+          Zahor is not directed at children under 13. We do not knowingly
+          collect data from minors.
+        </p>
+
+        <h2>9. Changes</h2>
+        <p>
+          We may update this policy. Any material change will be notified to
+          you in the app. The last update date appears at the top of this
+          document.
+        </p>
+
+        <h2>10. Contact</h2>
+        <p>
+          For any question regarding this policy:<br />
+          <a href="mailto:lirone.samoun@gmail.com"
+            >lirone.samoun@gmail.com</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <script>
+      // Simple language tab toggling (scroll + active state)
+      document.querySelectorAll(".lang-switch a").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          document
+            .querySelectorAll(".lang-switch a")
+            .forEach((l) => l.classList.remove("active"));
+          link.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
